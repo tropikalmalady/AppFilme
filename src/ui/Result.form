@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.Result">
+  <grid id="27dc6" binding="resultPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="510" height="700"/>
+    </constraints>
+    <properties>
+      <background color="-13027012"/>
+      <foreground color="-13948373"/>
+      <maximumSize width="510" height="700"/>
+      <minimumSize width="510" height="700"/>
+      <opaque value="true"/>
+      <preferredSize width="510" height="700"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="empty">
+      <size top="20" left="10" bottom="20" right="10"/>
+    </border>
+    <children>
+      <component id="88680" class="javax.swing.JLabel" binding="infosLabel">
+        <constraints border-constraint="North"/>
+        <properties>
+          <font size="16"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Infos"/>
+        </properties>
+      </component>
+      <component id="45f4a" class="javax.swing.JLabel" binding="plotLabel">
+        <constraints border-constraint="Last"/>
+        <properties>
+          <font size="12"/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <requestFocusEnabled value="true"/>
+          <text value="Steven Matrix is one of the underworld's foremost hitmen until his luck runs out, and someone puts a contract out on him. Shot in the forehead by a .22 pistol, Matrix \&quot;dies\&quot; and finds himself in \&quot;The City In Between\&quot;, where he is sho"/>
+        </properties>
+      </component>
+      <component id="8fa53" class="javax.swing.JLabel" binding="posterLabel">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <foreground color="-1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <maximumSize width="300" height="300"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
